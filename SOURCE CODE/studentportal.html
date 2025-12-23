@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-XXVQhqZjhmzSjz7pDvz/N9zp7pg5UnJ/9WpER8KK3ww7L5K39AHm6qLeF5O68F+1K" crossorigin="anonymous">
+    <style>
+        /* Add your custom styles here */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        header {
+            background-color: #0074D9;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .header-content h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        
+        .links-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            text-decoration: none;
+        }
+        
+        .link {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            background-color: #0074D9;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .link:hover {
+            background-color: #0056b3;
+        }
+        
+        .icon {
+            font-size: 2rem;
+        }
+        
+        .link p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .link {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Student Portal</h1>
+            <i class="fas fa-graduation-cap icon"></i>
+        </div>
+    </header>
+    <main>
+        <div class="links-container">
+            <div class="link">
+                <a href="student registration.html">
+                    <i class="fas fa-user-plus icon"></i>
+                    <p style="text-decoration: none;
+                    color: white; font-size:20px">Student Registration</p>
+                </a>
+            </div>
+            <div class="link">
+                <a href="upload document.html">
+                    <i class="fas fa-upload icon"></i>
+                    <p style="text-decoration: none;
+                    color: white; font-size:20px">Upload Documents</p>
+                </a>
+            </div>
+            <div class="link">
+                <a href="edit profile.html">
+                    <i class="fas fa-user-edit icon"></i>
+                    <p style="text-decoration: none;
+                    color: white; font-size:20px">Edit Current Profile</p>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

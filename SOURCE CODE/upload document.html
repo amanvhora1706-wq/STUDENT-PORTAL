@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Tracking System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Student Document Upload</h1>
+        <form action="upload document.php" method="post" enctype="multipart/form-data">
+            <label for="student_photo">Student Photo:</label>
+            <input type="file" name="student_photo" id="student_photo" accept="image/jpeg, image/png"><br>
+
+            <label for="aadhar_card">Aadhar Card:</label>
+            <input type="file" name="aadhar_card" id="aadhar_card" accept="application/pdf, image/jpeg, image/png"><br>
+
+            <label for="marksheet">Marksheet:</label>
+            <input type="file" name="marksheet" id="marksheet" accept="application/pdf"><br>
+
+            <label for="birth_certificate">Birth Certificate:</label>
+            <input type="file" name="birth_certificate" id="birth_certificate" accept="application/pdf, image/jpeg, image/png"><br>
+
+            <label for="income_certificate">Income Certificate:</label>
+            <input type="file" name="income_certificate" id="income_certificate" accept="application/pdf, image/jpeg, image/png"><br>
+
+            <input type="submit" value="Upload Documents">
+        </form>
+    </div>
+</body>
+
+</html>
