@@ -12,9 +12,9 @@ Implements core Create, Read, Update, and Delete operations to handle student re
 Features a simple, intuitive, and user-friendly interface optimized across devices.
 
 ### 🛠️ Tech Stack
-1.Frontend: HTML5, CSS3, JavaScript
-2.Backend: PHP
-3.Database: PHP MyAdmin
+1.Frontend: HTML5, CSS3, JavaScript.
+2.Backend: PHP.
+3.Database: PHP MyAdmin.
 
 ### 💼 My Responsibilities
 #### As the full-stack developer for this project, I managed the entire development cycle:
@@ -25,6 +25,7 @@ Features a simple, intuitive, and user-friendly interface optimized across devic
 
 ### ⚠️ Project Scope & Limitations
 Educational Focus: This project was developed as a learning environment to master essential full-stack web principles and is not intended for enterprise-level use.
+
 Basic Document Tracking: File management is designed for foundational learning and does not incorporate enterprise-grade document encryption or cloud storage pipelines.
 
 🔗 Watch the demo here:
